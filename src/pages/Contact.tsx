@@ -1,8 +1,7 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -93,7 +92,7 @@ export default function Contact() {
             
             {/* Form */}
             <div className="animate-fade-in [animation-delay:300ms]">
-              <div className="p-8 rounded-2xl border border-border/40 bg-card">
+              <div className="p-8 rounded-2xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none">
                 <h2 className="text-2xl font-display font-semibold mb-6">
                   Send a Message
                 </h2>
