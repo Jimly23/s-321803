@@ -53,7 +53,7 @@ export function Navbar() {
           className="text-xl font-display font-medium tracking-tight hover:text-accent transition-colors duration-300"
         >
           <span className="sr-only">Home</span>
-          John Doe
+          Jimly
         </NavLink>
 
         {/* Desktop Menu */}

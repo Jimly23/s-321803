@@ -38,9 +38,9 @@ export default function Home() {
           ref={heroRef} 
           className="text-center max-w-3xl mx-auto px-6 transition-all duration-300 ease-out"
         >
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-display font-bold leading-tight md:leading-tight tracking-tight text-balance mb-6 animate-fade-in">
-            <span className="block">Hi, I'm John Doe</span>
-            <span className="text-gradient">Designer & Developer</span>
+          <h1 className="text-3xl md:text-5xl font-display font-bold leading-tight md:leading-tight tracking-tight text-balance mb-6 animate-fade-in">
+            <span className="block">Hi, I'm Jimly Assidqi</span>
+            <span className="text-gradient">Blockchain Developer</span>
           </h1>
           <p className="text-lg md:text-xl text-foreground/80 max-w-lg mx-auto mb-8 animate-fade-in [animation-delay:200ms] text-balance">
             I create minimalist digital experiences where technology meets creativity
